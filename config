@@ -187,3 +187,5 @@ bindsym $mod+shift+x exec /usr/local/bin//lock_and_blur.sh
 bar {
         status_command i3status
 }
+
+exec_always xrandr --output Virtual-1 --primary --mode 1920x1080
