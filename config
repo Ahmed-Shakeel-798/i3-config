@@ -189,3 +189,4 @@ bar {
 }
 
 exec_always xrandr --output Virtual-1 --primary --mode 1920x1080
+exec_always feh --bg-scale ~/Pictures/current.jpg
